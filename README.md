@@ -11,12 +11,13 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 ## Instructions
 
 ### 1. Lancer le serveur local
+Ouvrir un terminal et dans le répertoire **PWA** exécuter :
 ```
 npx serve .
 ```
 
 ### 2. Créer un tunnel avec Cloudflared
-
+Ouvrir un autre terminal et dans le répertoire **PWA** exécuter :
 ```
 cloudflared tunnel --url http://localhost:3000
 ```
