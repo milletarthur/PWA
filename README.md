@@ -1,8 +1,13 @@
 # PWA
 Créer une PWA à partir d'un site web en local
 
-## Télécharger
+## Pré-requis
+Clone le repo :
+```
+git clone git@github.com:milletarthur/PWA.git
+```
 
+Télécharger Cloudflared
 ```
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 
@@ -11,18 +16,18 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 ## Instructions
 
 ### 1. Lancer le serveur local
-Ouvrir un terminal et dans le répertoire **PWA** exécuter :
+Ouvrir un terminal et dans le répertoire racine du projet (**PWA**) puis exécuter :
 ```
 npx serve .
 ```
 
 ### 2. Créer un tunnel avec Cloudflared
-Ouvrir un autre terminal et dans le répertoire **PWA** exécuter :
+Ouvrir un autre terminal et dans le répertoire racine du projet (**PWA**) puis exécuter :
 ```
 cloudflared tunnel --url http://localhost:3000
 ```
 
-### 3. Ouvrir sur votre appareil mobile l'URL généré
+### 3. Ouvrir sur votre appareil mobile l'URL générée
 
 <img src="doc/step1.jpg" width="300" height="500">
 
