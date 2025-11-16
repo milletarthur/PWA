@@ -23,10 +23,20 @@ cloudflared tunnel --url http://localhost:3000
 
 ### 3. Ouvrir sur votre appareil mobile l'URL généré
 
+<img src="doc/step1.jpg" width="300" height="500">
+
 ### 4. Ouvrir le menu en haut à gauche dans votre navigateur
+
+<img src="doc/step2.jpg" width="300" height="500">
 
 ### 5. Sélectionner "Ajouter à l'écran d'accueil"
 
+<img src="doc/step3.jpg" width="300" height="500">
+
 ### 5. Sélectionner "Installer"
 
+<img src="doc/step4.jpg" width="300" height="500">
+
 ### 6. Ouvrir l'application mobile
+
+<img src="doc/step5.jpg" width="300" height="500">
