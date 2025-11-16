@@ -25,6 +25,8 @@ cloudflared tunnel --url http://localhost:3000
 
 ### 4. Ouvrir le menu en haut à gauche dans votre navigateur
 
-### 5. Sélectionner **Ajouter à l'écran d'accueil**
+### 5. Sélectionner "Ajouter à l'écran d'accueil"
+
+### 5. Sélectionner "Installer"
 
 ### 6. Ouvrir l'application mobile
