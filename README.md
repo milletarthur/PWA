@@ -31,7 +31,7 @@ cloudflared tunnel --url http://localhost:3000
 
 <img src="doc/step1.jpg" width="300" height="500">
 
-### 4. Ouvrir le menu en haut à gauche dans votre navigateur
+### 4. Ouvrir le menu en haut à droite dans votre navigateur
 
 <img src="doc/step2.jpg" width="300" height="500">
 
